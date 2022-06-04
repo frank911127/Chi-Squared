@@ -7,7 +7,7 @@ import plotly.offline as py
 import plotly.graph_objects as go
 import csv
 #放入所要分析的檔名路徑
-data = pd.read_csv('ath.csv', encoding = 'ANSI')
+data = pd.read_csv('local.csv', encoding = 'ANSI')
 #根據想要統計的東西做分類
 frequency_count = Counter(data['上課方式'])
 f1 = list(frequency_count.keys())
